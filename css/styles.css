@@ -1,0 +1,146 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+#title{
+    background-color: goldenrod;
+}
+.title-head{
+    padding-top: 5%;
+}
+.container-fluid{
+padding:0% 15%;
+}
+h1{
+     font-family: 'Montserrat-black', sans-serif;
+     font-size: 3.5rem;
+     font-weight: bold;
+     line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bold;
+}
+p{
+    color:grey;
+    font-family: 'Montserrat-black', sans-serif;
+}
+/* Navigation Bar */
+
+.navbar-brand{
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+/* Download Button */
+
+.download-button{
+    margin:9% 2% 0 2%;
+}
+/* Title-section */
+.title-pic{
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: content;
+}
+
+/* Feature box ------*/
+
+#features{
+text-align: center;
+padding:7% 15%;
+}
+.icon{
+    margin-bottom:1.5%;
+    color:goldenrod;
+}
+/* Testimonial-section ------*/
+
+#testimonials{
+    background-color: goldenrod;
+    padding:7% 15%;
+    text-align: center;
+}
+
+.testimonial-image{
+    width:15%;
+    border-radius:100%;
+    margin:10%;
+}
+h2{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+} 
+#press{
+    background-color: goldenrod;
+    text-align: center;
+}
+.Testo{
+    width:13%;
+    margin:0% 3% 1%;
+}
+
+/* Nearby Restaurant */
+
+#pricing{
+    padding:100px;
+    background: url(https://image.shutterstock.com/image-photo/italian-food-background-cuisine-ingredients-260nw-1499710865.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.rest-column{
+    text-align: center;
+    font-family: 'Montserrat-black', sans-serif;
+    margin-top: 3%;
+}
+.rest-heading{
+    font-weight: bold;
+    font-size: 1 rem;
+}
+.rest-pic{
+    color: whitesmoke;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+    .title-pic{
+        width: 100vh;
+        height:100vh;
+        text-align: center;
+        padding:2%;
+        margin:2%;
+    }
+    .download-button{
+        margin-bottom: 7%;
+    }
+}
+/* call to action */
+#cta{
+    text-align: center;
+    background-color: goldenrod;
+    font-family: 'Montserrat-black', sans-serif;
+    padding:7% 15%;
+}
+.cta-heading{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    padding-bottom: 4%;
+}
+.sign-in{
+    background-color: black;
+}
+ /* Footer */
+ #footer{
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat-black', sans-serif;
+    padding:7% 15%;
+ }
+ .footer-pic{
+     margin:3%;
+ }
